@@ -6,17 +6,17 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Msql Connector">
+	<classpathentry kind="lib" path="libs/StringEscape/commons-lang3-3.12.0/commons-lang3-3.12.0.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hruss/Desktop/JavaProjects/ReaderInsetSQL/libs/StringEscape/commons-lang3-3.12.0/commons-lang3-3.12.0.jar">
+	<classpathentry kind="lib" path="libs/StringEscape/commons-text-1.9/commons-text-1.9.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hruss/Desktop/JavaProjects/ReaderInsetSQL/libs/StringEscape/commons-text-1.9/commons-text-1.9.jar">
+	<classpathentry kind="lib" path="libs/Jdbc-connectors/mysql-connector-java-8.0.23.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>

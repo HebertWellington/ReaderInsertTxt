@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -29,8 +30,10 @@ public class ReaderInsertSQL {
 			conn.setAutoCommit(false);
 
 			st = conn.createStatement();
-
-			String pathSource = "C:\\Users\\hruss\\Desktop\\InfinitumFinal\\2.txt";
+			
+			Properties props = DB.loadProperties();
+			String pathSource = props.getProperty("pathSource");
+			
 
 			try (BufferedReader br = new BufferedReader(
 					new InputStreamReader(new FileInputStream(pathSource), "UTF8"))) {
