@@ -124,12 +124,14 @@ public class ReaderInsertSQL {
 					}
 
 				}
+				
+				System.out.println("Created file");
+
 
 			} catch (IOException e) {
 				System.out.println("Error writing file: " + e.getMessage());
 			}
 
-			System.out.println("Created file");
 
 			conn.commit();
 
