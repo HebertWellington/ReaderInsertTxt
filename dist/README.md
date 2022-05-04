@@ -10,7 +10,7 @@ https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
      JAVA_HOME:
 C:\Program Files\Java\jdk-11.0.4
    
-     Path: include
+     Path:
 C:\Program Files\Java\jdk-11.0.4\bin
 
 
